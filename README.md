@@ -20,4 +20,4 @@ sudo chmod 666 /dev/myled0
 ↓
 echo 1 > /dev/myled0
 ## 動画
-https://studio.youtube.com/video/HPHcSGwn6U0/edit
+https://studio.youtube.com/video/HPHcSGwn6U0
