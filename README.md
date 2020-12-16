@@ -12,13 +12,22 @@ OS:Ubuntu 18.04
 ・ブレッドボード・ジャンパーワイヤ（オス－メス）15cm 黒 10本  
 ・カーボン抵抗（炭素皮膜抵抗） 1/4W330Ω 5個
 ## 動かし方
-myledとMakefileを作り  
-make  
+
+myledとMakefileを作り 
+```shell
+$ make  
+```
 ↓  
-sudo insmod myled.ko  
+```shell
+$ sudo insmod myled.ko  
+```
 ↓  
-sudo chmod 666 /dev/myled0  
+```shell
+$ sudo chmod 666 /dev/myled0
+```
 ↓  
-echo 1 > /dev/myled0
+```shell
+$ echo 1 > /dev/myled0
+```
 ## 動画
 https://youtu.be/HPHcSGwn6U0
