@@ -2,8 +2,9 @@
 ロボットシステム学で作成したデバイスドライバ
 
 ## 内容
-https://github.com/ryuichiueda/robosys_device_drivers/blob/master/myled.c を改変して複数のLEDライトを光らせました作成しました。
-
+上田隆一教授が授業で作成したデバイスドライバ(https://github.com/ryuichiueda/robosys_device_drivers/blob/master/myled.c )を改変して複数のLEDライトを光らせるものを作成しました。
+## 動作環境 
+OS:Ubuntu 18.04 
 ## 使用したもの
 ・Raspberry Pi4 1個  
 ・10mm赤色LED　OS5RAAA131A 5個  
