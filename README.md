@@ -29,5 +29,8 @@ $ sudo chmod 666 /dev/myled0
 ```shell
 $ echo 1 > /dev/myled0
 ```
+でLEDが光り始めます　
 ## 動画
 https://youtu.be/HPHcSGwn6U0
+## ライセンス
+[GNU General Public License v3.0](https://github.com/kiyoshirou-kawanabe/Robosys_Devicedriver/blob/main/COPYING)
