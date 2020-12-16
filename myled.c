@@ -1,3 +1,7 @@
+// SPDX-License-Identifier: GPL-3.0-only
+/*
+     Copyright (C) 2020  Haruki Shimotori and Ryuichi Ueda. All right reserved.
+*/
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/cdev.h>
@@ -6,7 +10,7 @@
 #include <linux/io.h>
 #include <linux/unistd.h>
 #include <linux/delay.h>
-MODULE_AUTHOR("Mizuki Nanba");
+MODULE_AUTHOR("Ryuichi Ueda && Mizuki Nanba");
 MODULE_DESCRIPTION("driver for LED control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.0.1");
