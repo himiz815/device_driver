@@ -1,5 +1,5 @@
 # device_driver
-ロボットシステム工学で作成したデバイスドライバ
+ロボットシステム学で作成したデバイスドライバ
 
 ## 内容
 https://github.com/ryuichiueda/robosys_device_drivers/blob/master/myled.c を改変して複数のLEDライトを光らせました作成しました。
