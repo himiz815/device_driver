@@ -11,22 +11,26 @@ OS:Ubuntu 18.04
 ・ブレッドボード　EIC-801 1個  
 ・ブレッドボード・ジャンパーワイヤ（オス－メス）15cm 黒 10本  
 ・カーボン抵抗（炭素皮膜抵抗） 1/4W330Ω 5個
+# インストール方法  
+``` 
+$ git clone https://github.com/himiz815/device_driver.git  
+```
 ## 動かし方
 
 myledとMakefileを作り 
-```shell
+``` 
 $ make  
 ```
 ↓  
-```shell
+``` 
 $ sudo insmod myled.ko  
 ```
 ↓  
-```shell
+```
 $ sudo chmod 666 /dev/myled0
 ```
 ↓  
-```shell
+``` shell
 $ echo 1 > /dev/myled0
 ```
 でLEDが光り始めます　
